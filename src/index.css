@@ -12,6 +12,18 @@
     border: 2px #1D4ED8 solid;
 }
 
+.border-mine2 {
+    border: 1px #22D3EE solid;
+}
+
+.border-mine2-bold {
+    border: 2px #22D3EE solid;
+}
+
 .bg-gradient {
     background: linear-gradient(-45deg, #1D4ED8, #22D3EE);
+}
+
+.text-color2 {
+    color: #22D3EE;
 }

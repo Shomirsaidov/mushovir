@@ -20,14 +20,14 @@
             </div>
         </div>
 
-        <div class="bg-white rounded-t-[38px] p-4">
+        <div class="bg-white rounded-t-[38px] p-4 pb-20">
 
             <div class="border rounded-lg mt-2">
 
                 <div class="flex p-4 border-b items-center justify-between">
                     <div class="flex items-center space-x-3">
                         <img src="../assets/bell.svg" alt="">
-                        <div class="font-semibold">Law updates</div>
+                        <div class="font-semibold">Иловаю тағйиротҳо</div>
                     </div>
                     <div class="rounded-full p-1 px-[10px] text-sm bg-red-400 text-white font-semibold">4</div>
                 </div>
@@ -35,7 +35,7 @@
                 <div class="flex p-4 border-b-1 items-center justify-between">
                     <div class="flex items-center space-x-3">
                         <img src="../assets/settings.svg" alt="">
-                        <div class="font-semibold">Settings</div>
+                        <div class="font-semibold">Танзимот</div>
                     </div>
                 </div>
 
@@ -69,10 +69,15 @@
                 
             </div>
 
-            <div class="flex items-center space-x-6 justify-center bg-gradient rounded-xl p-3 pb-0">
-                <img src="../assets/bot.svg" alt="">
-                <div class="text-start text-white text-lg font-semibold">Муаммое пеш омад ? <br> Бо ман маслиҳат кунед</div>
-            </div>
+
+            <router-link to="/ai">
+                <div class="flex items-center space-x-6 justify-center bg-gradient rounded-xl p-3 pb-0">
+                    <img src="../assets/bot.svg" alt="">
+                    <div class="text-start text-white text-lg font-semibold">Муаммое пеш омад ? <br> Бо ман маслиҳат кунед</div>
+                </div>
+            </router-link>
+
+            
 
 
 
