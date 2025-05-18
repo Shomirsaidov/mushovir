@@ -98,7 +98,7 @@ export default {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: "Bearer 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", // REPLACE ME
+            Authorization: `Bearer ${process.env.VUE_APP_OPENAI_KEY}`
           },
           body: JSON.stringify({
             model: "gpt-4o",
