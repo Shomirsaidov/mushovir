@@ -33,7 +33,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background: #f3f4f6;
 }
 
