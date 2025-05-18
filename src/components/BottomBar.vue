@@ -1,6 +1,6 @@
 
 <template>
-  <div v-if="!shouldHide" class="flex items-center justify-around fixed bottom-0 w-full bg-white rounded-t-[40px] border p-6 border-grey-600">
+  <div v-if="!shouldHide" class="flex items-center justify-around fixed bottom-0 w-full bg-white rounded-t-[40px] border p-6 pb-7 border-grey-600">
     <router-link to="/ai">
       <img width="25" src="../assets/chat-bottom.svg" alt="Chat" />
     </router-link>
